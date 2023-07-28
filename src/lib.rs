@@ -158,7 +158,7 @@ mod tests {
     }
     
     #[test]
-    fn iter() {
+    fn test_standard_iter_list() {
         let mut list: LinkedList<i32> = LinkedList::new();
         list.push(10);
         list.push(20);
